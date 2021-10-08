@@ -48,6 +48,8 @@ We also wrote a [medium blog post](https://medium.com/p/learning-with-minibatch-
 ### What is included ?
 
 * Unbiased Sinkhorn GAN experiment
+* Numerical counterexample regarding the positivity of the introduced loss
+* Sample complexity experiments
 
 
 ### Authors
