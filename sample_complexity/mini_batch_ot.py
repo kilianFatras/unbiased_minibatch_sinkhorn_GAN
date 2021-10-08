@@ -2,8 +2,6 @@ import numpy as np
 import matplotlib.pylab as pl
 import ot
 from utils import mini_batch
-import scipy
-
 
 
 def calculate_inc_mbot(xs, xt, a, b, bs_s, bs_t, num_iter, M):

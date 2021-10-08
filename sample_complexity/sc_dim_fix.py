@@ -2,21 +2,9 @@
 import numpy as np
 import matplotlib.pylab as pl
 import ot
-from utils import comb_index
-from utils import plot_OT_mat, imshow_OT, plot_norm_error
+from utils import plot_perf
 from mini_batch_ot import calculate_inc_mbot
 
-
-
-def plot_perf(nlist, err, color, label, errbar=False, perc=20):
-    pl.loglog(nlist, err.mean(0), label=label, color=color)
-    if errbar:
-        pl.fill_between(nlist, np.percentile(err,perc,axis=0), np.percentile(err,100-perc,axis=0),
-                    alpha=0.2, facecolor=color)
-
-###################################
-# MAIN
-###################################
 #%% parameters and data generation
 np.random.seed(1985)
 k = 1000
