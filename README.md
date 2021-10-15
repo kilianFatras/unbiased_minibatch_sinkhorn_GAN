@@ -50,6 +50,7 @@ We also wrote a [medium blog post](https://medium.com/p/learning-with-minibatch-
 * Unbiased Sinkhorn GAN experiment
 * Numerical counterexample regarding the positivity of the introduced loss
 * Sample complexity experiments
+* Gromov-Wasserstein experiments
 * Color Transfer (can be found here: https://github.com/kilianFatras/minibatch_Wasserstein/blob/master/color_transfert_full_pic.py)
 
 
